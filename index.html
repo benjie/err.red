@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>err.red - Error Redirection</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+      a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: white;
+        background-color: #d33;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      a:hover {
+        background-color: #b00;
+      }
+      .errored {
+        display: inline-flex;
+        align-items: baseline;
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .dot {
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        width: 0.7rem;
+        height: 0.7rem;
+        bottom: 0.45rem;
+        background-color: white;
+        border: 0.2rem solid red;
+        border-radius: 50%;
+        margin: 0;
+        font-size: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="errored">err<span class="dot">.</span>red</h1>
+    <h2>Error Redirection</h2>
+    <p>
+      This domain is used for redirecting to error pages across Graphile's open
+      source software.
+    </p>
+    <p>
+      If you're seeing this directly, you can visit the main Graphile site
+      below:
+    </p>
+    <a href="https://graphile.org">Go to Graphile.org</a>
+  </body>
+</html>
